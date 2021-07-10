@@ -1,0 +1,19 @@
+{
+  "name": "api_questions",
+  "version": "1.0.0",
+  "description": "api untuk soal aplikassi quis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzibmuzakar/API_Questions.git"
+  },
+  "author": "muzib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muzibmuzakar/API_Questions/issues"
+  },
+  "homepage": "https://github.com/muzibmuzakar/API_Questions#readme"
+}
