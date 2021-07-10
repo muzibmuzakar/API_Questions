@@ -5,4 +5,10 @@ module.exports = function (app) {
 
     app.route('/')
         .get(jsonku.index);
+
+    app.route('/questions')
+        .get(jsonku.getQuestions);
+
+    app.route('/questions/:id')
+        .get(jsonku.getQuestionsId);
 };
