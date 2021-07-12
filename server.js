@@ -11,5 +11,5 @@ var routes = require('./routes');
 routes(app);
 
 app.listen(PORT, () => {
-    console.log(`Server Running on port: http://localhost:${PORT}`);
+    console.log(`Server Running on Port: http://localhost:${PORT}`);
 });

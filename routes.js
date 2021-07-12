@@ -11,4 +11,13 @@ module.exports = function (app) {
 
     app.route('/questions/:id')
         .get(jsonku.getQuestionsId);
+    
+    app.route('/questions')
+        .post(jsonku.addQuestion);
+    
+    app.route('/questions/:id')
+        .put(jsonku.updateQuestion);
+
+    app.route('/questions/:id')
+        .delete(jsonku.deleteQuestion);
 };
